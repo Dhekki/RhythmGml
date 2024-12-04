@@ -472,7 +472,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spr_Wiki",width:800,height:800,transparent:!1,smooth:!1,preload:!1,xOrigin:400,yOrigin:400,bboxRight:799,bboxBottom:799,playbackspeed:0,TPEntryIndex:[11,10,13,14,12],sequence:
+		pName:"spr_Wiki",width:800,height:800,transparent:!1,smooth:!1,preload:!1,xOrigin:400,yOrigin:400,bboxRight:799,bboxBottom:799,playbackspeed:0,TPEntryIndex:[10,11,13,14,12],sequence:
 		{
 			pName:"spr_Wiki",playback:1,playbackSpeed:0,playbackSpeedType:0,length:5,xorigin:400,yorigin:400,volume:1,keyframeStore:[],tracks:[
 			{
@@ -1782,10 +1782,10 @@ var JSON_game=
 			x:3000,y:2000,index:1,id:100031,pPreCreateCode:gml_RoomCC_rm_levels_7_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:2,colour:4294967295		}
 		,
 		{
-			x:3300,y:2000,index:1,id:100032,pPreCreateCode:gml_RoomCC_rm_levels_8_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:3,colour:4294967295		}
+			x:3300,y:2000,index:1,id:100032,pPreCreateCode:gml_RoomCC_rm_levels_8_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
 		,
 		{
-			x:3000,y:2300,index:1,id:100033,pPreCreateCode:gml_RoomCC_rm_levels_9_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
+			x:3000,y:2300,index:1,id:100033,pPreCreateCode:gml_RoomCC_rm_levels_9_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:3,colour:4294967295		}
 		,
 		{
 			x:3300,y:2300,index:5,id:100028,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:4,colour:4294967295		}
@@ -1800,10 +1800,13 @@ var JSON_game=
 			x:2700,y:1700,index:5,id:100020,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:1,colour:4294967295		}
 		,
 		{
-			x:3660,y:2300,index:12,id:100034,rotation:0,scaleX:0.699999988079071,scaleY:0.699999988079071,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3660,y:2300,index:12,id:100035,rotation:0,scaleX:0.699999988079071,scaleY:0.699999988079071,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:2700,y:2300,index:1,id:100034,pPreCreateCode:gml_RoomCC_rm_levels_15_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:15,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:15,iinstIDs:[100020,100021,100022,100023,100024,100025,100026,100027,100028,100029,100030,100031,100032,100033,100034]		}
+			pName:"Instances",id:15,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:16,iinstIDs:[100020,100021,100022,100023,100024,100025,100026,100027,100028,100029,100030,100031,100032,100033,100034,100035]		}
 		,
 		{
 			pName:"Assets_1",id:16,type:3,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],acount:0,assets:[],scount:2,sprites:[
@@ -1845,43 +1848,43 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:3000,y:2000,index:10,id:100035,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:2000,index:10,id:100036,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3000,y:1700,index:5,id:100037,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:1700,index:5,id:100038,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2700,y:2000,index:5,id:100039,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2700,y:2000,index:5,id:100040,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3000,y:2000,index:5,id:100040,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:2000,index:5,id:100041,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3300,y:2000,index:5,id:100041,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3300,y:2000,index:5,id:100042,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3000,y:2300,index:5,id:100043,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:2300,index:5,id:100044,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2700,y:1700,index:5,id:100036,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:1,colour:4294967295		}
+			x:2700,y:1700,index:5,id:100037,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:1,colour:4294967295		}
 		,
 		{
-			x:3300,y:1700,index:5,id:100038,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:2,colour:4294967295		}
+			x:3300,y:1700,index:5,id:100039,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:2,colour:4294967295		}
 		,
 		{
-			x:2700,y:2300,index:5,id:100042,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:3,colour:4294967295		}
+			x:2700,y:2300,index:5,id:100043,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:3,colour:4294967295		}
 		,
 		{
-			x:3300,y:2300,index:5,id:100044,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:4,colour:4294967295		}
+			x:3300,y:2300,index:5,id:100045,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:4,colour:4294967295		}
 		,
 		{
-			x:3660,y:2300,index:12,id:100045,rotation:0,scaleX:0.699999988079071,scaleY:0.699999988079071,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3660,y:2300,index:12,id:100046,rotation:0,scaleX:0.699999988079071,scaleY:0.699999988079071,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3000,y:2540,index:14,id:100046,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:2540,index:14,id:100047,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3000,y:2620,index:9,id:100047,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:2620,index:9,id:100048,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Assets_1",id:18,type:3,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],acount:0,assets:[],scount:1,sprites:[
@@ -1890,7 +1893,7 @@ var JSON_game=
 			],ecount:0,sequences:[],pcount:0,particles:[],tcount:0,textitems:[]		}
 		,
 		{
-			pName:"Instances",id:19,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:13,iinstIDs:[100035,100036,100037,100038,100039,100040,100041,100042,100043,100044,100045,100046,100047]		}
+			pName:"Instances",id:19,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:13,iinstIDs:[100036,100037,100038,100039,100040,100041,100042,100043,100044,100045,100046,100047,100048]		}
 		,
 		{
 			pName:"Background",id:20,type:1,depth:200,x:81,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:!0,bforeground:!1,bindex:0,bhtiled:!1,bvtiled:!1,bstretch:!1,bblend:-1,bimage_index:0,bimage_speed:0		}
@@ -1923,28 +1926,28 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:3000,y:2000,index:11,id:100048,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3000,y:2000,index:11,id:100049,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3000,y:2000,index:16,id:100049,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
+			x:3000,y:2000,index:16,id:100050,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
 		,
 		{
-			x:3660,y:2350,index:12,id:100050,rotation:0,scaleX:0.699999988079071,scaleY:0.699999988079071,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3660,y:2350,index:12,id:100051,rotation:0,scaleX:0.699999988079071,scaleY:0.699999988079071,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3200,y:1760,index:15,id:100051,pPreCreateCode:gml_RoomCC_rm_results_3_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3200,y:1760,index:15,id:100052,pPreCreateCode:gml_RoomCC_rm_results_3_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3200,y:1920,index:15,id:100052,pPreCreateCode:gml_RoomCC_rm_results_4_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3200,y:1920,index:15,id:100053,pPreCreateCode:gml_RoomCC_rm_results_4_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3200,y:2020,index:15,id:100053,pPreCreateCode:gml_RoomCC_rm_results_5_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3200,y:2020,index:15,id:100054,pPreCreateCode:gml_RoomCC_rm_results_5_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3200,y:2120,index:15,id:100054,pPreCreateCode:gml_RoomCC_rm_results_6_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3200,y:2120,index:15,id:100055,pPreCreateCode:gml_RoomCC_rm_results_6_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3200,y:2220,index:15,id:100055,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3200,y:2220,index:15,id:100056,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Assets_1",id:21,type:3,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],acount:0,assets:[],scount:1,sprites:[
@@ -1953,7 +1956,7 @@ var JSON_game=
 			],ecount:0,sequences:[],pcount:0,particles:[],tcount:0,textitems:[]		}
 		,
 		{
-			pName:"Instances",id:22,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:8,iinstIDs:[100048,100049,100050,100051,100052,100053,100054,100055]		}
+			pName:"Instances",id:22,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:8,iinstIDs:[100049,100050,100051,100052,100053,100054,100055,100056]		}
 		,
 		{
 			pName:"Background",id:23,type:1,depth:200,x:81,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:!0,bforeground:!1,bindex:0,bhtiled:!1,bvtiled:!1,bstretch:!1,bblend:-1,bimage_index:0,bimage_speed:0		}
@@ -2137,7 +2140,7 @@ var JSON_game=
 		"filt+fx":"filt+fx","nullish":"nullish","login_sso":"login_sso","operagx-yyc":"operagx-yyc","mqtt":"mqtt","audio-fx":"audio-fx","intellisense":"intellisense","test":"test","custom_env":"custom_env","filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","gx_mod_gamestrip":"gx_mod_gamestrip","live_wallpaper_subscription":"live_wallpaper_subscription"	}
 	,Options:
 	{
-		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:1920,yscreensize:1280,gameId:0,gameGuid:"fbb7ef97-9fac-4208-bc9f-308b57b11242",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!0,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:2,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!1,UseNewAudio:!0,GameDir:"rhythmGml",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!0,UseBuiltinFont:!0,LocalRunAlert:!0,crc:0,ProjectName:"Rhythm Html",md5:[67,193,67,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Tic Tac Beat",UseFBExtension:!1,tm:1732844452,AllowStatistics:"True"	}
+		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:1920,yscreensize:1280,gameId:0,gameGuid:"fbb7ef97-9fac-4208-bc9f-308b57b11242",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!0,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:2,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!1,UseNewAudio:!0,GameDir:"rhythmGml",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!0,UseBuiltinFont:!0,LocalRunAlert:!0,crc:0,ProjectName:"Rhythm Html",md5:[67,193,67,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Tic Tac Beat",UseFBExtension:!1,tm:1733337046,AllowStatistics:"True"	}
 }
 ;
 
@@ -2164,6 +2167,11 @@ function gml_RoomCC_rm_levels_8_PreCreate(_inst,_other)
 function gml_RoomCC_rm_levels_9_PreCreate(_inst,_other)
 {
 	_inst.gmllevel=5;
+}
+
+function gml_RoomCC_rm_levels_15_PreCreate(_inst,_other)
+{
+	_inst.gmllevel=6;
 }
 
 function gml_RoomCC_rm_results_3_PreCreate(_inst,_other)
@@ -3086,12 +3094,12 @@ function gml_Object_obj_Grid_Alarm_0(_inst,_other)
 		}
 		case 3:
 		{
-			audio_play_sound(YYASSET_REF(0x02000001),1,0);
+			audio_play_sound(YYASSET_REF(0x02000002),1,0);
 			break;
 		}
 		case 4:
 		{
-			audio_play_sound(YYASSET_REF(0x02000002),1,0);
+			audio_play_sound(YYASSET_REF(0x02000001),1,0);
 			break;
 		}
 		case 5:
@@ -3119,7 +3127,6 @@ function gml_Object_obj_Grid_Step_0(_inst,_other)
 		}
 	}
 	;
-	_inst.gmlsecondsPassed=yyfplus(_inst.gmlsecondsPassed,yyfdivide(1,__yy_gml_errCheck(game_get_speed(0))));
 	if((yyGetBool(!yyGetBool(instance_exists(YYASSET_REF(0x00000006)))))&&(yyGetBool(global.gmlgrowth)))
 	{
 
@@ -3173,7 +3180,6 @@ function gml_Object_obj_Grid_Step_0(_inst,_other)
 		}
 	}
 	;
-	show_debug_message(yyfplus("Instâncias de círculos: ",__yy_gml_errCheck(string(instance_number(YYASSET_REF(0x00000006))))));
 }
 
 function gml_Object_obj_Grid_Step_1(_inst,_other)
@@ -3225,8 +3231,6 @@ function gml_Object_obj_Grid_Draw_64(_inst,_other)
 		}
 	}
 	;
-	draw_set_color(16777215);
-	draw_text(562,375,_inst.gmlsecondsPassed);
 }
 
 function gml_Object_obj_home_Mouse_4(_inst,_other)
@@ -10746,16 +10750,6 @@ function instance_exists(_ck)
 			if(!_9o.marked&&_9o.active)return true		}
 	}
 	return false}
-
-function instance_number(_ck)
-{
-	var __G=GetWithArray(yyGetInt32(_ck));
-	if(__G==null)return 0;
-	var _c9=0;
-	for(var i=0;i<__G.length;i++)
-	{
-		if((__G[i].active)&&(!__G[i].marked))_c9++	}
-	return _c9}
 
 function _oI(_Pn,_pI)
 {
